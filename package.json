@@ -9,13 +9,35 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@react-navigation/bottom-tabs": "^6.5.12",
+    "@react-navigation/native": "^6.1.9",
+    "@react-navigation/native-stack": "^6.9.17",
+    "@react-navigation/stack": "^6.3.21",
+    "axios": "^1.6.8",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
     "expo": "~50.0.6",
+    "expo-auth-session": "~5.4.0",
+    "expo-secure-store": "~12.8.1",
     "expo-status-bar": "~1.11.1",
+    "express": "^4.18.3",
+    "mongodb": "^6.5.0",
+    "mongoose": "^8.2.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.9.2",
     "react": "18.2.0",
-    "react-native": "0.73.4"
+    "react-native": "0.73.4",
+    "react-native-get-random-values": "^1.11.0",
+    "react-native-safe-area-context": "4.8.2",
+    "react-native-screens": "~3.29.0",
+    "styled-components": "^6.1.8",
+    "tls": "^0.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
   },
-  "private": true
+  "private": true,
+  "description": "Proyecto de integradora ",
+  "author": "",
+  "license": "ISC"
 }
